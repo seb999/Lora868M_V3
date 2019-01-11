@@ -1,0 +1,752 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1709 ]
+[d frameptr 6 ]
+"5 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\adxl.c
+[v _ADXL_ReadReg ADXL_ReadReg `(uc  1 e 1 0 ]
+"18
+[v _ADXL_WriteReg ADXL_WriteReg `(v  1 e 1 0 ]
+"28
+[v _InitADXL InitADXL `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"623
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\islower.c
+[v _islower islower `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcat.c
+[v _strcat strcat `(*.39uc  1 e 1 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strchr.c
+[v _strchr strchr `(*.25uc  1 e 1 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 1 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcspn.c
+[v _strcspn strcspn `(ui  1 e 2 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strspn.c
+[v _strspn strspn `(ui  1 e 2 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strtok.c
+[v _strtok strtok `(*.39uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"27 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"59
+[v _Inter_adxl Inter_adxl `(v  1 e 1 0 ]
+"65
+[v _Inter_timer Inter_timer `(v  1 e 1 0 ]
+"184
+[v _LoraSendData LoraSendData `(a  1 e 1 0 ]
+"56 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"93
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"112
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"52 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"77
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"60 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"134
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"146
+[v _IOCCF1_ISR IOCCF1_ISR `(v  1 e 1 0 ]
+"162
+[v _IOCCF1_SetInterruptHandler IOCCF1_SetInterruptHandler `(v  1 e 1 0 ]
+"169
+[v _IOCCF1_DefaultInterruptHandler IOCCF1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"65 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/spi.c
+[v _SPI_Initialize SPI_Initialize `(v  1 e 1 0 ]
+"79
+[v _SPI_Exchange8bit SPI_Exchange8bit `(uc  1 e 1 0 ]
+"65 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"109
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"127
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"131
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"15 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v _blinkRed blinkRed `(v  1 e 1 0 ]
+[v i1_blinkRed blinkRed `(v  1 e 1 0 ]
+"24
+[v _blinkGreen blinkGreen `(v  1 e 1 0 ]
+[v i1_blinkGreen blinkGreen `(v  1 e 1 0 ]
+"33
+[v _blinkOrange blinkOrange `(v  1 e 1 0 ]
+"62
+[v _EUART_LORA EUART_LORA `(v  1 e 1 0 ]
+[v i1_EUART_LORA EUART_LORA `(v  1 e 1 0 ]
+"83
+[v _ReadUartCmd ReadUartCmd `(v  1 e 1 0 ]
+"97
+[v _SendUartCmd SendUartCmd `(v  1 e 1 0 ]
+"118
+[v _ChangeBaudRate57600 ChangeBaudRate57600 `(v  1 e 1 0 ]
+"126
+[v _NormalizeHex NormalizeHex `(*.4uc  1 e 1 0 ]
+[s S77 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1709.h
+[s S86 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S91 . 1 `S77 1 . 1 0 `S86 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES91  1 e 1 @11 ]
+[s S338 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"535
+[u S347 . 1 `S338 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES347  1 e 1 @14 ]
+[s S818 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"601
+[s S827 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCPIF 1 0 :1:2 
+]
+[u S830 . 1 `S818 1 . 1 0 `S827 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES830  1 e 1 @17 ]
+"753
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1073
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1118
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1157
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1392
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S473 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1415
+[s S480 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S487 . 1 `S473 1 . 1 0 `S480 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES487  1 e 1 @149 ]
+"1532
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1591
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1649
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1721
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"2011
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2056
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S185 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2070
+[u S191 . 1 `S185 1 . 1 0 ]
+[v _LATBbits LATBbits `VES191  1 e 1 @269 ]
+"2095
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S22 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2112
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _LATCbits LATCbits `VES31  1 e 1 @270 ]
+"2449
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2834
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2879
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2906
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3148
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"3202
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"3263
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"3333
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"3387
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S867 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3413
+[u S876 . 1 `S867 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES876  1 e 1 @413 ]
+"3567
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S846 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3593
+[u S855 . 1 `S846 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES855  1 e 1 @414 ]
+"3747
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"3993
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4043
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4082
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"4144
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4398
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4906
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+[s S690 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"4928
+[u S699 . 1 `S690 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES699  1 e 1 @532 ]
+"5028
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S663 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5061
+[s S669 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S674 . 1 `S663 1 . 1 0 `S669 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES674  1 e 1 @533 ]
+"5542
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5587
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"5626
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6182
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6227
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6266
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+[s S553 . 1 `uc 1 IOCCP0 1 0 :1:0 
+`uc 1 IOCCP1 1 0 :1:1 
+`uc 1 IOCCP2 1 0 :1:2 
+`uc 1 IOCCP3 1 0 :1:3 
+`uc 1 IOCCP4 1 0 :1:4 
+`uc 1 IOCCP5 1 0 :1:5 
+`uc 1 IOCCP6 1 0 :1:6 
+`uc 1 IOCCP7 1 0 :1:7 
+]
+"6763
+[u S562 . 1 `S553 1 . 1 0 ]
+[v _IOCCPbits IOCCPbits `VES562  1 e 1 @919 ]
+[s S532 . 1 `uc 1 IOCCN0 1 0 :1:0 
+`uc 1 IOCCN1 1 0 :1:1 
+`uc 1 IOCCN2 1 0 :1:2 
+`uc 1 IOCCN3 1 0 :1:3 
+`uc 1 IOCCN4 1 0 :1:4 
+`uc 1 IOCCN5 1 0 :1:5 
+`uc 1 IOCCN6 1 0 :1:6 
+`uc 1 IOCCN7 1 0 :1:7 
+]
+"6825
+[u S541 . 1 `S532 1 . 1 0 ]
+[v _IOCCNbits IOCCNbits `VES541  1 e 1 @920 ]
+[s S511 . 1 `uc 1 IOCCF0 1 0 :1:0 
+`uc 1 IOCCF1 1 0 :1:1 
+`uc 1 IOCCF2 1 0 :1:2 
+`uc 1 IOCCF3 1 0 :1:3 
+`uc 1 IOCCF4 1 0 :1:4 
+`uc 1 IOCCF5 1 0 :1:5 
+`uc 1 IOCCF6 1 0 :1:6 
+`uc 1 IOCCF7 1 0 :1:7 
+]
+"6887
+[u S520 . 1 `S511 1 . 1 0 ]
+[v _IOCCFbits IOCCFbits `VES520  1 e 1 @921 ]
+"8466
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3599 ]
+[s S310 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"8476
+[u S312 . 1 `S310 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES312  1 e 1 @3599 ]
+"8626
+[v _SSPCLKPPS SSPCLKPPS `VEuc  1 e 1 @3616 ]
+"8646
+[v _SSPDATPPS SSPDATPPS `VEuc  1 e 1 @3617 ]
+"8686
+[v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
+[s S324 . 1 `uc 1 RXPPS 1 0 :5:0 
+]
+"8696
+[u S326 . 1 `S324 1 . 1 0 ]
+[v _RXPPSbits RXPPSbits `VES326  1 e 1 @3620 ]
+"8806
+[v _RA0PPS RA0PPS `VEuc  1 e 1 @3728 ]
+"8826
+[v _RA1PPS RA1PPS `VEuc  1 e 1 @3729 ]
+"8866
+[v _RA4PPS RA4PPS `VEuc  1 e 1 @3732 ]
+[s S331 . 1 `uc 1 RA4PPS 1 0 :5:0 
+]
+"8876
+[u S333 . 1 `S331 1 . 1 0 ]
+[v _RA4PPSbits RA4PPSbits `VES333  1 e 1 @3732 ]
+[s S317 . 1 `uc 1 RC4PPS 1 0 :5:0 
+]
+"9076
+[u S319 . 1 `S317 1 . 1 0 ]
+[v _RC4PPSbits RC4PPSbits `VES319  1 e 1 @3748 ]
+"9086
+[v _RC5PPS RC5PPS `VEuc  1 e 1 @3749 ]
+"12907
+[v _CKP CKP `VEb  1 e 0 @4268 ]
+"13351
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"14401
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+"14773
+[v _SWDTEN SWDTEN `VEb  1 e 0 @1208 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"8 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\main.c
+[v _isGpsAccess isGpsAccess `a  1 e 1 0 ]
+"9
+[v _isLoraAccess isLoraAccess `a  1 e 1 0 ]
+"10
+[v _isMotionStopped isMotionStopped `a  1 e 1 0 ]
+"12
+[v _lora lora `[40]uc  1 e 40 0 ]
+"13
+[v _gps gps `[40]uc  1 e 40 0 ]
+"14
+[v _hex hex `[10]uc  1 e 10 0 ]
+"15
+[v _gpsHex gpsHex `[30]uc  1 e 30 0 ]
+"17
+[v _token token `*.39uc  1 e 2 0 ]
+"18
+[v _latitude latitude `*.39uc  1 e 2 0 ]
+"19
+[v _longitude longitude `*.39uc  1 e 2 0 ]
+"20
+[v _latitudeDec latitudeDec `*.39uc  1 e 2 0 ]
+"21
+[v _longitudeDec longitudeDec `*.39uc  1 e 2 0 ]
+"23
+[v _counter counter `i  1 e 2 0 ]
+"24
+[v _counterMotion counterMotion `i  1 e 2 0 ]
+"57 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/pin_manager.c
+[v _IOCCF1_InterruptHandler IOCCF1_InterruptHandler `*.37(v  1 e 2 0 ]
+"59 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"60
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"27 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"57
+} 0
+"15 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v _blinkRed blinkRed `(v  1 e 1 0 ]
+{
+[v blinkRed@n n `i  1 p 2 2 ]
+"22
+} 0
+"24
+[v _blinkGreen blinkGreen `(v  1 e 1 0 ]
+{
+[v blinkGreen@n n `i  1 p 2 2 ]
+"31
+} 0
+"50 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"77
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"65 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"127
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"129
+} 0
+"65 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/spi.c
+[v _SPI_Initialize SPI_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"60 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"132
+} 0
+"162
+[v _IOCCF1_SetInterruptHandler IOCCF1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCCF1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"164
+} 0
+"61 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"56 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"28 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\adxl.c
+[v _InitADXL InitADXL `(v  1 e 1 0 ]
+{
+"31
+[v InitADXL@reg reg `uc  1 a 1 8 ]
+"61
+} 0
+"18
+[v _ADXL_WriteReg ADXL_WriteReg `(v  1 e 1 0 ]
+{
+[v ADXL_WriteReg@reg reg `uc  1 a 1 wreg ]
+[v ADXL_WriteReg@reg reg `uc  1 a 1 wreg ]
+[v ADXL_WriteReg@cmd cmd `uc  1 p 1 3 ]
+"20
+[v ADXL_WriteReg@reg reg `uc  1 a 1 6 ]
+"26
+} 0
+"5
+[v _ADXL_ReadReg ADXL_ReadReg `(uc  1 e 1 0 ]
+{
+[v ADXL_ReadReg@reg reg `uc  1 a 1 wreg ]
+"11
+[v ADXL_ReadReg@val val `uc  1 a 1 6 ]
+"5
+[v ADXL_ReadReg@reg reg `uc  1 a 1 wreg ]
+"7
+[v ADXL_ReadReg@reg reg `uc  1 a 1 5 ]
+"15
+} 0
+"79 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/spi.c
+[v _SPI_Exchange8bit SPI_Exchange8bit `(uc  1 e 1 0 ]
+{
+[v SPI_Exchange8bit@data data `uc  1 a 1 wreg ]
+[v SPI_Exchange8bit@data data `uc  1 a 1 wreg ]
+"82
+[v SPI_Exchange8bit@data data `uc  1 a 1 2 ]
+"92
+} 0
+"62 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v _EUART_LORA EUART_LORA `(v  1 e 1 0 ]
+{
+"64
+[v EUART_LORA@state state `a  1 a 1 4 ]
+"80
+} 0
+"118
+[v _ChangeBaudRate57600 ChangeBaudRate57600 `(v  1 e 1 0 ]
+{
+"123
+} 0
+"52 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"67
+} 0
+"109 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"124
+} 0
+"131
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"134
+} 0
+"65 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\main.c
+[v _Inter_timer Inter_timer `(v  1 e 1 0 ]
+{
+"78
+[v Inter_timer@i i `i  1 a 2 0 ]
+"118
+} 0
+"62 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v i1_EUART_LORA EUART_LORA `(v  1 e 1 0 ]
+{
+[v i1EUART_LORA@state EUART_LORA `a  1 a 1 2 ]
+"80
+} 0
+"184 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\main.c
+[v _LoraSendData LoraSendData `(a  1 e 1 0 ]
+{
+"208
+[v LoraSendData@str str `[50]uc  1 a 50 10 ]
+"228
+} 0
+"15 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v i1_blinkRed blinkRed `(v  1 e 1 0 ]
+{
+[v i1blinkRed@n n `i  1 p 2 0 ]
+"22
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strtok.c
+[v _strtok strtok `(*.39uc  1 e 1 0 ]
+{
+[v strtok@s s `*.39uc  1 p 2 2 ]
+[v strtok@sep sep `*.25DCuc  1 p 2 4 ]
+"5
+[v strtok@p p `*.39uc  1 s 2 p ]
+"13
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strspn.c
+[v _strspn strspn `(ui  1 e 2 0 ]
+{
+"11
+[v strspn@i i `ui  1 a 2 0 ]
+"8
+[v strspn@s s `*.39DCuc  1 p 2 7 ]
+[v strspn@c c `*.25DCuc  1 p 2 9 ]
+"33
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcspn.c
+[v _strcspn strcspn `(ui  1 e 2 0 ]
+{
+"13
+[v strcspn@i i `ui  1 a 2 0 ]
+"10
+[v strcspn@s s `*.39DCuc  1 p 2 7 ]
+[v strcspn@c c `*.25DCuc  1 p 2 9 ]
+"32
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strchr.c
+[v _strchr strchr `(*.25uc  1 e 1 0 ]
+{
+[v strchr@s s `*.25DCuc  1 p 2 0 ]
+[v strchr@c c `i  1 p 2 2 ]
+"20
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@l l `*.39DCuc  1 p 2 0 ]
+[v strcmp@r r `*.25DCuc  1 p 2 2 ]
+"7
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcat.c
+[v _strcat strcat `(*.39uc  1 e 1 0 ]
+{
+[v strcat@dest dest `*.39uc  1 p 2 4 ]
+[v strcat@src src `*.26DCuc  1 p 2 6 ]
+"7
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"14
+[v strlen@a a `*.39DCuc  1 a 2 4 ]
+"12
+[v strlen@s s `*.39DCuc  1 p 2 0 ]
+"26
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 1 0 ]
+{
+"14
+[v strcpy@d d `*.39uc  1 a 2 2 ]
+"13
+[v strcpy@s s `*.26DCuc  1 a 2 0 ]
+"7
+[v strcpy@dest dest `*.39uc  1 p 2 6 ]
+[v strcpy@src src `*.26DCuc  1 p 2 8 ]
+"18
+} 0
+"97 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v _SendUartCmd SendUartCmd `(v  1 e 1 0 ]
+{
+"99
+[v SendUartCmd@i i `i  1 a 2 4 ]
+"97
+[v SendUartCmd@cmd cmd `*.26uc  1 p 2 1 ]
+"101
+} 0
+"112 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/eusart.c
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 0 ]
+"120
+} 0
+"83 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v _ReadUartCmd ReadUartCmd `(v  1 e 1 0 ]
+{
+"87
+[v ReadUartCmd@i i `i  1 a 2 4 ]
+"88
+[v ReadUartCmd@token token `uc  1 a 1 6 ]
+"83
+[v ReadUartCmd@output output `*.39uc  1 p 2 0 ]
+"95
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 12 ]
+"7
+[v memset@k k `ui  1 a 2 10 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"93 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/eusart.c
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+{
+"110
+} 0
+"134 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"141
+} 0
+"146
+[v _IOCCF1_ISR IOCCF1_ISR `(v  1 e 1 0 ]
+{
+"157
+} 0
+"59 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\main.c
+[v _Inter_adxl Inter_adxl `(v  1 e 1 0 ]
+{
+"63
+} 0
+"24 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\misc.c
+[v i1_blinkGreen blinkGreen `(v  1 e 1 0 ]
+{
+[v i1blinkGreen@n n `i  1 p 2 0 ]
+"31
+} 0
+"169 C:\Users\Sdubos\MPLABXProjects\Temp\LORA868M_V3.X\mcc_generated_files/pin_manager.c
+[v _IOCCF1_DefaultInterruptHandler IOCCF1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"172
+} 0
